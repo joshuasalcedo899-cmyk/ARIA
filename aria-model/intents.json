@@ -1,0 +1,504 @@
+{
+  "intents": [
+    {
+      "tag": "unknown",
+      "patterns": [""],
+      "responses": ["I'm sorry, I didn't catch that."]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Good day",
+        "Hey there",
+        "Is anyone available?",
+        "Can I ask something?",
+        "Yo",
+        "What's up?",
+        "Hi ARIA",
+        "Hey assistant",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hello ARIA",
+        "How are you?"
+      ],
+      "responses": [
+        "Hello! I am ARIA, your virtual assistant. How can I assist you today?",
+        "Hi there! I'm ARIA, the school's AI assistant. How may I help you?",
+        "Good day! This is ARIA. How can I be of service?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Thanks, bye",
+        "Have a great day",
+        "Catch you later",
+        "I'm leaving now",
+        "Talk to you soon",
+        "Peace out",
+        "Farewell",
+        "See ya",
+        "Later ARIA"
+      ],
+      "responses": [
+        "Goodbye! Have a great day ahead.",
+        "See you later! Let ARIA know if you need anything else.",
+        "Take care! ARIA is always here to help."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "I appreciate it",
+        "That was helpful",
+        "Thanks a lot",
+        "Many thanks",
+        "Cheers",
+        "Big help, thanks",
+        "Thank you ARIA",
+        "Appreciate your help",
+        "Much obliged"
+      ],
+      "responses": [
+        "You're welcome! ARIA is happy to help.",
+        "Anytime! Let me know if you need anything else.",
+        "Glad to assist you!"
+      ]
+    },
+    {
+      "tag": "register_classes",
+      "patterns": [
+        "How do I register for classes?",
+        "How can I enroll in subjects?",
+        "Class registration steps?",
+        "Process for class enrollment?",
+        "How to sign up for subjects?",
+        "How do I add subjects?",
+        "Where do I go to enroll?",
+        "Can you guide me with registration?",
+        "Steps to register in the portal?",
+        "How do I start enrollment?",
+        "What do I need for class registration?"
+      ],
+      "responses": [
+        "You need your previous academic card and proof of tuition payment. The system will save your data and generate a unique ID."
+      ]
+    },
+    {
+      "tag": "cannot_enroll_course",
+      "patterns": [
+        "Why can’t I enroll in a course?",
+        "Why am I blocked from enrolling in a course?",
+        "Why is class enrollment blocked?",
+        "What’s preventing my enrollment?",
+        "I can't register—why?",
+        "Why is enrollment not working?",
+        "What could stop me from enrolling?",
+        "Why is the portal blocking my enrollment?",
+        "Why won’t the system let me enroll?"
+      ],
+      "responses": [
+        "You may be an irregular student or a transferee. Transferees require evaluation, and irregular students must retake any missed prerequisites."
+      ]
+    },
+    {
+      "tag": "drop_class",
+      "patterns": [
+        "How do I drop or withdraw from a class?",
+        "Steps to drop a subject?",
+        "How can I withdraw from a class?",
+        "Remove class from my schedule?",
+        "Cancel enrollment in a course?",
+        "Where do I request class withdrawal?",
+        "Can I still drop a subject?",
+        "What’s the process to cancel a subject?",
+        "How do I officially drop a subject?"
+      ],
+      "responses": [
+        "Visit the registrar and request a withdrawal form to drop the class."
+      ]
+    },
+    {
+      "tag": "request_transcript",
+      "patterns": [
+        "How do I request my transcript?",
+        "How can I get my transcript of records?",
+        "Request for academic records?",
+        "How do I get my TOR?",
+        "Steps to request transcript?",
+        "Where can I request TOR?",
+        "Can I get my records online?",
+        "How do I claim my transcript?",
+        "What’s the process for transcript request?"
+      ],
+      "responses": [
+        "Visit the registrar or scan the QR code on STI College Calamba’s Facebook page to request your transcript."
+      ]
+    },
+    {
+      "tag": "view_grades",
+      "patterns": [
+        "How can I view my grades?",
+        "Where can I check my grades?",
+        "How do I see my scores?",
+        "Grade viewing steps?",
+        "How to access my grades?",
+        "Where do I log in to see grades?",
+        "Can I see my grades online?",
+        "My grades are missing, where do I check?",
+        "How do I check my results?"
+      ],
+      "responses": [
+        "You can view them on ELMS or One STI. If you can't, you may have a pending balance. You can also request a copy at the registrar."
+      ]
+    },
+    {
+      "tag": "account_hold",
+      "patterns": [
+        "Why is there a hold on my account?",
+        "What’s causing the account hold?",
+        "Why can’t I register—account on hold?",
+        "What’s blocking my student account?",
+        "Reason for hold on my profile?",
+        "Why is my account locked?",
+        "Why is my account restricted?",
+        "Why is my registration blocked?",
+        "Why can’t I access my account?"
+      ],
+      "responses": [
+        "You may have unpaid tuition or a case from the Guidance Office."
+      ]
+    },
+    {
+      "tag": "apply_scholarship",
+      "patterns": [
+        "How do I apply for scholarships or financial aid?",
+        "How can I apply for a scholarship?",
+        "Scholarship application steps?",
+        "Where do I get scholarship forms?",
+        "How do I get financial aid?",
+        "Can I apply for a grant?",
+        "Is there a scholarship program?"
+      ],
+      "responses": [
+        "To apply for a scholarship, visit the registrar to request the necessary forms."
+      ]
+    },
+    {
+      "tag": "cant_login_portal",
+      "patterns": [
+        "I can’t log into the student portal.",
+        "Why can’t I access the portal?",
+        "Portal login not working.",
+        "I forgot my login details for the portal.",
+        "I’m locked out of the student portal.",
+        "How do I fix my portal account?",
+        "Portal won’t let me log in."
+      ],
+      "responses": [
+        "Please visit the MIS office to fix your account."
+      ]
+    },
+    {
+      "tag": "reset_password",
+      "patterns": [
+        "How do I reset my password?",
+        "Forgot password steps?",
+        "How do I recover my account password?",
+        "How do I change my password?",
+        "What to do if I forgot my password?",
+        "Password reset process?"
+      ],
+      "responses": [
+        "Make sure your email is connected to your STI account to receive a verification number for password reset."
+      ]
+    },
+    {
+      "tag": "access_student_email",
+      "patterns": [
+        "Where can I access my student email?",
+        "How do I log into my STI email?",
+        "I can’t open my student email.",
+        "What’s my student email?",
+        "How to get my school email?"
+      ],
+      "responses": [
+        "Visit the MIS office for assistance with student email."
+      ]
+    },
+    {
+      "tag": "join_club",
+      "patterns": [
+        "How do I join a club or student organization?",
+        "Where can I sign up for clubs?",
+        "How can I be part of a student org?",
+        "Can I join an organization?",
+        "How do I register for a club?",
+        "Process of joining student activities?"
+      ],
+      "responses": [
+        "You can be referred or nominate yourself during elections or reevaluation for student organizations."
+      ]
+    },
+    {
+      "tag": "pay_tuition",
+      "patterns": [
+        "How can I pay for my tuition?",
+        "Where do I pay tuition?",
+        "Steps to pay tuition fees?",
+        "Can I pay online for tuition?",
+        "Do you accept installment payments?",
+        "How do I settle my tuition?"
+      ],
+      "responses": [
+        "Discuss with the admissions office and pay at the cashier. Bring your RAF for your student ID."
+      ]
+    },
+    {
+      "tag": "complete_clearance",
+      "patterns": [
+        "How can I get to complete my clearance form?",
+        "Steps for clearance form?",
+        "Where do I submit clearance?",
+        "How do I finish clearance?",
+        "Process for completing clearance?"
+      ],
+      "responses": [
+        "Ensure you meet all requirements and have no pending balances to complete your clearance form."
+      ]
+    },
+    {
+      "tag": "payment_modes",
+      "patterns": [
+        "What mode of payment is available on the campus?",
+        "How can I pay my fees?",
+        "Do you accept GCash?",
+        "What payment options are there?",
+        "Is cash accepted?",
+        "Can I pay using M-Lhuillier?"
+      ],
+      "responses": [
+        "We accept payments via GCash, M-Lhuillier, and cash."
+      ]
+    },
+    {
+      "tag": "buy_uniform",
+      "patterns": [
+        "What are the steps to purchase a uniform or STI shirts?",
+        "Where do I buy my uniform?",
+        "How do I get an STI shirt?",
+        "Where can I purchase school uniform?",
+        "Steps to order uniform?",
+        "Uniform buying process?"
+      ],
+      "responses": [
+        "Head to PAMO or Proware, get measured, receive a tentative receipt, and proceed to the cashier for the official receipt."
+      ]
+    },
+    {
+      "tag": "location_pamo",
+      "patterns": [
+        "Where can I find the PAMO?",
+        "Where is PAMO located?",
+        "How do I get to Proware?",
+        "Location of PAMO?",
+        "Is PAMO inside the school?"
+      ],
+      "responses": [
+        "PAMO or Proware is on the ground floor, right side of the campus."
+      ]
+    },
+    {
+      "tag": "location_building_admin",
+      "patterns": [
+        "Where can I find the Building Administration Office?",
+        "Where is the admin office?",
+        "Location of building admin?",
+        "How do I get to the building office?"
+      ],
+      "responses": [
+        "Located on the ground floor, left side of the campus."
+      ]
+    },
+    {
+      "tag": "location_faculty_office",
+      "patterns": [
+        "Where can I find the Faculty Office?",
+        "Where is the teachers’ office?",
+        "Faculty office location?",
+        "How do I get to the faculty office?"
+      ],
+      "responses": [
+        "The Faculty Office is on the mezzanine."
+      ]
+    },
+    {
+      "tag": "location_clinic",
+      "patterns": [
+        "Where can I find the School Clinic?",
+        "Where is the clinic?",
+        "Is there a nurse’s office?",
+        "How do I reach the clinic?"
+      ],
+      "responses": [
+        "The School Clinic is on the ground floor, left side of the campus."
+      ]
+    },
+    {
+      "tag": "location_comfort_room",
+      "patterns": [
+        "Where can I find the Comfort Room?",
+        "Where are the restrooms?",
+        "Bathroom location?",
+        "Where is the CR?",
+        "Toilet location?"
+      ],
+      "responses": [
+        "Ground floor: left side. 2nd/3rd floors: left side for males, right side for females."
+      ]
+    },
+    {
+      "tag": "location_student_affairs",
+      "patterns": [
+        "Where can I find the Students Affair Office?",
+        "Where is the student affairs office?",
+        "Location of student affairs?",
+        "How to get to SAO?"
+      ],
+      "responses": [
+        "Located on the ground floor, left side of the campus."
+      ]
+    },
+    {
+      "tag": "location_mezzanine",
+      "patterns": [
+        "Where can I find the Mezzanine?",
+        "How do I go to the mezzanine?",
+        "Is there a mezzanine floor?",
+        "Mezzanine location?"
+      ],
+      "responses": [
+        "Take the stairs on the left or press M in the elevator to reach the mezzanine."
+      ]
+    },
+    {
+      "tag": "location_school_admin_office",
+      "patterns": [
+        "Where can I find the School Administrator’s Office?",
+        "School admin office location?",
+        "How do I get to the administrator’s office?",
+        "Where is the principal’s office?"
+      ],
+      "responses": [
+        "The School Administrator’s Office is on the mezzanine."
+      ]
+    },
+    {
+      "tag": "location_mis",
+      "patterns": [
+        "Where can I find the MIS?",
+        "MIS office location?",
+        "How do I go to MIS?",
+        "Where is MIS located?"
+      ],
+      "responses": [
+        "The MIS Office is on the 3rd floor, right side of the campus."
+      ]
+    },
+    {
+      "tag": "location_conference_hall",
+      "patterns": [
+        "Where can I find the Conference Hall?",
+        "Conference hall location?",
+        "How do I go to the conference room?",
+        "Where is the conference area?"
+      ],
+      "responses": [
+        "The Conference Hall is on the mezzanine floor, right side of the campus."
+      ]
+    },
+    {
+      "tag": "location_function_hall",
+      "patterns": [
+        "Where can I find the Function Hall?",
+        "Function hall location?",
+        "Where is the event hall?",
+        "How do I go to the function hall?"
+      ],
+      "responses": [
+        "Located on the 4th floor, right side of the campus."
+      ]
+    },
+    {
+      "tag": "location_library",
+      "patterns": [
+        "Where can I find the library?",
+        "Library location?",
+        "How do I go to the library?",
+        "Where is the school library?",
+        "Is there a library?"
+      ],
+      "responses": [
+        "The Library is on the 4th floor, right side. Use the elevator and press 4."
+      ]
+    },
+    {
+      "tag": "location_canteen",
+      "patterns": [
+        "Where can I find the Canteen?",
+        "Where is the cafeteria?",
+        "Where do students eat?",
+        "Is there a canteen?",
+        "Location of school canteen?"
+      ],
+      "responses": [
+        "The canteen is located on the roofdeck of the campus."
+      ]
+    },
+    {
+      "tag": "location_registrar",
+      "patterns": [
+        "Where can I find the Registrar?",
+        "Registrar’s office location?",
+        "How do I go to registrar?",
+        "Where is the registrar’s office?"
+      ],
+      "responses": [
+        "The registrar is on the ground floor beside the cashier."
+      ]
+    },
+    {
+      "tag": "location_cashier",
+      "patterns": [
+        "Where can I find the Cashier?",
+        "Cashier office location?",
+        "How do I go to cashier?",
+        "Where is the cashier’s office?"
+      ],
+      "responses": [
+        "The cashier is located on the ground floor beside the registrar."
+      ]
+    },
+    {
+      "tag": "uniform_pass",
+      "patterns": [
+        "What is a uniform pass?",
+        "Why do I need a uniform pass?",
+        "How to get a uniform pass?",
+        "Where to get a uniform pass?",
+        "Uniform pass details?"
+      ],
+      "responses":[
+        "You can get a uniform pass from Student Affairs if you have a valid reason for not wearing the uniform."
+      ]
+    }
+  ]
+}

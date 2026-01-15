@@ -1,0 +1,6 @@
+fastapi
+torch
+transformers
+numpy
+uvicorn
+nltk
